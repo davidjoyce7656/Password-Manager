@@ -1,8 +1,8 @@
 # PASSWORD MANAGER
 
 This is my first project that I've created as a final project for CS50, this is my first dive into creating a program with cryptography so I will warn:
-# DO NOT USE THIS A REGULAR PASSWORD MANAGER
-I have an obsession with security and privacy, so this is my first crack at it!
+## DO NOT USE THIS A REGULAR PASSWORD MANAGER
+# I have an obsession with security and privacy, so this is my first crack at it!
 
 ### Generating a key
 The Encryption Method I used was Fernet. Fernet guarantees that a message encrypted using it cannot be manipulated or read without the key. Fernet is an implementation of symmetric (also known as “secret key”) authenticated cryptography. By creating an Encryptor class, I can then automate the process of creating a key, storing that key and able to retrieve it when I need to view my encrypted files. The key is automatically paired with the password file, so we will no longer need to create another key. If the key is accidentally deleted, the file will be no longer accessible. 
