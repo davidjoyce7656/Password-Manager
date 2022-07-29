@@ -1,7 +1,7 @@
 # PASSWORD MANAGER
 
 This is my first project that I've created as a final project for CS50, this is my first dive into creating a program with cryptography so I will warn:
-## DO NOT USE THIS A REGULAR PASSWORD MANAGER
+## DO NOT USE THIS AS A REGULAR PASSWORD MANAGER
 ### I have an obsession with security and privacy, so this is my first crack at it!
 
 ### Generating a key
